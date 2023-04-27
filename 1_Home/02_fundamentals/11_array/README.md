@@ -162,9 +162,9 @@ console.log(Array.isArray(seas)); // true
 
 ### Summary
 
-- In JS, an array is an order list of values. Each value is called an element specified by an index.
-- An array can hold values of mixed types.
-- JS arrays are dynamic, which means that they grow or shrink as needed.
+> - In JS, an array is an order list of values. Each value is called an element specified by an index.
+> - An array can hold values of mixed types.
+> - JS arrays are dynamic, which means that they grow or shrink as needed.
 
 
 
