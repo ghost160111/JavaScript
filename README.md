@@ -6,7 +6,7 @@
 
 > :memo: Let's start the documentation
 
-### Content
+## Content
 
 1. Home
     - Introduction
