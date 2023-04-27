@@ -79,7 +79,92 @@ console.log(scoresLength); // 3
 > From the code above, as you can see, you can have an access to the array through scores[0] syntax, and also change the values of them.
 
 
+### Adding elements to the end of an array
 
+> To add an element to the end of array, you use the push() method:
+
+```js
+
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+
+seas.push('Red Sea'); // adding an element to the end of an array seas
+seas.push('Aral Sea'); // addign an element to the end of an array seas after 'Red Sea' element.
+
+console.log(seas); // [ 'Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea', 'Red Sea', 'Aral Sea' ]
+
+```
+
+### Adding an element to the beginning of an array
+
+> To add element to the beginning of an array, you use the unshift() method:
+
+```js
+
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+
+seas.unshift('Red Sea');
+seas.unshift('East Sea');
+
+console.log(seas); // [ 'East Sea', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea' ]
+
+```
+
+### Removing an element from the end of an array
+
+> To remove an element from the end of an array, you use the pop() method:
+
+```js
+
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+const lastElement = seas.pop();
+
+console.log(seas); // Baltic Sea
+
+```
+
+### Removing an element from the beginning of an array
+
+> To remove an element from the beginning of an array, you use the shift() method:
+
+```js
+
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+const firstElement = seas.shift();
+
+console.log(firstElement); // Black Sea
+
+```
+
+### Finding an indx of an element in the array
+
+> To find the index of an element, you use the indexOf() method:
+
+```js
+
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+let index = seas.indexOf("North Sea");
+
+console.log(index); // 2
+
+```
+
+### Check if a value is an array.
+
+> To check if a value is an array, you use Array.isArray() method:
+
+```js
+
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'];
+
+console.log(Array.isArray(seas)); // true
+
+```
+
+### Summary
+
+- In JS, an array is an order list of values. Each value is called an element specified by an index.
+- An array can hold values of mixed types.
+- JS arrays are dynamic, which means that they grow or shrink as needed.
 
 
 
