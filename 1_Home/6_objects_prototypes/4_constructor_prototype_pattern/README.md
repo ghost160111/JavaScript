@@ -1,0 +1,1 @@
+## Constructor prototype pattern

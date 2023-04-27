@@ -1,0 +1,1 @@
+## Objeect literal syntax extension
