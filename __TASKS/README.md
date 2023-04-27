@@ -134,7 +134,7 @@
         - [ ] Bigint
         - [ ] String
 
-2. ES6
+2. [ ] 2. ES6
     - [ ] New ES6 syntax
     - [ ] Destructuring
     - [ ] ES6 modules
@@ -149,13 +149,13 @@
     - [ ] String extensions
     - [ ] Proxy Reflection
 
-3. Advanced
+3. [ ] 3. Advanced
     - [ ] JS - array methods
     - [ ] JS - string methods
     - [ ] JS - regular expressions
     - [ ] ES next
 
-4. JS BOM
+4. [ ] 4. JS BOM
     - [ ] Window
         - [ ] Intro to window
         - [ ] Alert method
@@ -170,7 +170,7 @@
     - [ ] Screen
     - [ ] History
 
-5. JS DOM
+5. [ ] 5. JS DOM
     - [ ] Introduction
     - [ ] Selection elements
     - [ ] Traversing elements
@@ -180,7 +180,7 @@
     - [ ] Working with events
     - [ ] Scripting web forms
 
-6. Web API
+6. [ ] 6. Web API
     - [ ] ClientStorage
     - [ ] FormData API
     - [ ] Drag and drop API
