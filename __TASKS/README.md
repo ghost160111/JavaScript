@@ -2,7 +2,7 @@
 
 1. Home
     - [x] Introduction
-    - [ ] Fundamentals
+    - [x] Fundamentals
     - [ ] Operators
     - [ ] Control flow
     - [ ] Functions
