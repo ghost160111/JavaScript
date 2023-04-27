@@ -1,6 +1,4 @@
-# JavaScript
-
-## JavaScript documentation
+# JavaScript documentation
 
 <img src="/__assets/images/JSlogo.png" alt="JS logo" style="width:100px;height:100px;">
 
