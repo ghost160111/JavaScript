@@ -3,22 +3,136 @@
 1. Home
     - [x] Introduction
     - [x] Fundamentals
+        - [x] Syntax 
+        - [x] Variables
+        - [x] Data Types
+        - [x] Number
+        - [x] Numeric Separator
+        - [x] Octal binary literals
+        - [x] Boolean
+        - [x] String
+        - [x] Object
+        - [x] Primitive vs Reference values
+        - [x] Array
     - [ ] Operators
+        - [ ] Arithmetic Operations
+        - [ ] Remainder(modulus) operator
+        - [ ] Assignment operators
+        - [ ] Unary operators
+        - [ ] Logical operators
+        - [ ] Logical assignment operators
+        - [ ] Nullish coalescing operator
+        - [ ] Exponentiation operator
     - [ ] Control flow
+        - [ ] if
+        - [ ] if...else
+        - [ ] if...else if
+        - [ ] Ternary operators
+        - [ ] Switch
+        - [ ] While loop
+        - [ ] Do..while loop
+        - [ ] for loop
+        - [ ] break
+        - [ ] continue
+        - [ ] Comma operators
     - [ ] Functions
+        - [ ] Introduction to functions
+        - [ ] Function first class citizens
+        - [ ] Anonymous functions
+        - [ ] Pass by value
+        - [ ] Recursive function
+        - [ ] Default parameters
     - [ ] Object prototypes
+        - [ ] Object methods
+        - [ ] Constructor functions
+        - [ ] Prototype
+        - [ ] Constructor prototype pattern
+        - [ ] Prototypal inheritance
+        - [ ] this Keyword
+        - [ ] globalThis
+        - [ ] Object properties
+        - [ ] For..in loop
+        - [ ] Enumerable properties
+        - [ ] Own properties
+        - [ ] Object.values()
+        - [ ] Object.entries()
+        - [ ] Object.assign() 
+        - [ ] Object.is()
+        - [ ] Factory functions
+        - [ ] Object destructuring
+        - [ ] Optional chaining operator
+        - [ ] Object literal syntax extension
     - [ ] Classes
+        - [ ] Introduction to classes in JS
+        - [ ] Getters and Setters
+        - [ ] Class expression
+        - [ ] Computed property
+        - [ ] Inheritance
+        - [ ] new.target
+        - [ ] Static methods
+        - [ ] Private fields
+        - [ ] PRivate methods
     - [ ] Advanced functions
+        - [ ] Function type
+        - [ ] call()
+        - [ ] apply()
+        - [ ] bind()
+        - [ ] Closure
+        - [ ] IIFE
+        - [ ] Returning multiple values
+        - [ ] Arrow functions
+        - [ ] When you should not use arrow functions
+        - [ ] Rest parameter
+        - [ ] Callback functions
     - [ ] Promises, async, await
+        - [ ] Intro to promises
+        - [ ] Promise chaining
+        - [ ] Promise.all() vs Promise.race()
+        - [ ] Promise.any()
+        - [ ] Promise.allSettled()
+        - [ ] Promise.prototype.finally()
+        - [ ] Promise error handling
+        - [ ] Async & Await
     - [ ] Iterators, generators
+        - [ ] Iterators
+        - [ ] Generators
+        - [ ] Yeild
+        - [ ] For..of
+        - [ ] Asynchronous iterators
+        - [ ] Asynchronous generators
     - [ ] Modules
+        - [ ] Modules
+        - [ ] Dynamic import
+        - [ ] Top-level await
     - [ ] Symbol
+        - [ ] Intro to symbols
     - [ ] Collections
+        - [ ] Map
+        - [ ] Set
     - [ ] Error handling
+        - [ ] Try..catch
+        - [ ] Try..catch..finally
+        - [ ] Throw
+        - [ ] Optional catch binding
     - [ ] JS - var, let, const keywords
+        - [ ] Let
+        - [ ] Let vs Var
+        - [ ] Const
     - [ ] Proxy reflection
+        - [ ] Proxy
+        - [ ] Reflection
     - [ ] JS - runtime
+        - [ ] Executing contexts
+        - [ ] Call stack
+        - [ ] Event loop
+        - [ ] Hoisting
+        - [ ] Variable scopes
     - [ ] Primitive Wrapper types
+        - [ ] Intro to primitive wrapper types
+        - [ ] Boolean
+        - [ ] Number
+        - [ ] Bigint
+        - [ ] String
 
 2. ES6
     - [ ] New ES6 syntax
@@ -43,7 +157,15 @@
 
 4. JS BOM
     - [ ] Window
+        - [ ] Intro to window
+        - [ ] Alert method
+        - [ ] Confirm method 
+        - [ ] Prompt method
+        - [ ] setTimeout
+        - [ ] setInteval
     - [ ] Location
+        - [ ] Intro to location
+        - [ ] Get query string parameters
     - [ ] Navigator
     - [ ] Screen
     - [ ] History
