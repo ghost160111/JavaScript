@@ -1,5 +1,4 @@
-## Array
-
+# Array
 
 ### Creating Array in JS
 
