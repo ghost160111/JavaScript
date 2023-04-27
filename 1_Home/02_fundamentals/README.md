@@ -42,6 +42,5 @@
 9. Array
 
 > - Array is the sequence of elements with the same data type, also it can be called as order list of values with the same data type. There are a lot of methods which does their certain job. But the main and most used methods are:
-
-1. .pop() method that
+>     - .pop() method that
 
