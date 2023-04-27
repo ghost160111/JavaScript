@@ -12,6 +12,8 @@
 - Complex
     - object
 
+> Basically, symbol is available from ES15, and bigint is available from ES20
+
 ```js
 let counter = 120;  // counter is a number
 counter = false;    // counter is now a boolean
