@@ -43,7 +43,7 @@ console.log(first + " " + last); // Jaloliddin Zukhriddinov
 
 
 
-> Summary
+### :memo: Summary
 
 - Javascript has two types of values: primitive values and reference values.
 - You can add, change, or delete properties to a reference value, whereas you cannot do it with a primitive value.

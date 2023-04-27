@@ -117,7 +117,7 @@ console.log("firstName" in employee); // false
 
 ```
 
-> :memo: Summary!
+### :memo: Summary!
 
 - An object is a collection of key-value pairs.
 - use the dot notaion (.) or bracket notation [] to access a property of an object.

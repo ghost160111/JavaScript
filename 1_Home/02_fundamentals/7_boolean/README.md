@@ -51,7 +51,7 @@ if (error) {
 
 ```
 
-> Summary
+### :memo: Summary
 
 - JS boolean type has two literal values which are true and false
 - Use the Boolean() function to cast non-boolean values to a boolean value.
