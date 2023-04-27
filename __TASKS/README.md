@@ -1,6 +1,6 @@
 ## Todo list:
 
-1. [ ] Home
+1. [ ] 1. Home
     - [x] Introduction
     - [x] Fundamentals
         - [x] Syntax 
