@@ -159,7 +159,7 @@ console.log(Array.isArray(seas)); // true
 
 ```
 
-### Summary
+### :memo: Summary
 
 > - In JS, an array is an order list of values. Each value is called an element specified by an index.
 > - An array can hold values of mixed types.
