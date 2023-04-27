@@ -71,7 +71,7 @@
         - [ ] new.target
         - [ ] Static methods
         - [ ] Private fields
-        - [ ] PRivate methods
+        - [ ] Private methods
     - [ ] Advanced functions
         - [ ] Function type
         - [ ] call()
