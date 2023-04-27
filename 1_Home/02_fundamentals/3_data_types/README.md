@@ -233,8 +233,8 @@ console.log(contact["firstName"]);
 
 ### :memo: Summary
 
-- JS has the primitive types: number, string, boolean, null, undefined, symbol, and bigint.
-- JS has also complex type: object.
+> - JS has the primitive types: number, string, boolean, null, undefined, symbol, and bigint.
+> - JS has also complex type: object.
 
 
 

@@ -50,5 +50,5 @@ let message = 0xD0_E0_F0;
 
 ### :memo: Summary.
 
-- Use underscores (_) to separate numbers. That just for yourself to understand how many digits are there if you are working with big numbers or floating point numbers, it won't affect the runtime.
+> - Use underscores (_) to separate numbers. That just for yourself to understand how many digits are there if you are working with big numbers or floating point numbers, it won't affect the runtime.
 

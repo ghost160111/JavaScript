@@ -71,8 +71,8 @@ console.log(f); // 7
 
 ### :memo: Summary!
 
-- Octal literals start with 0o followed by a sequence of numbers between 0 and 7.
-- Binary literals start with 0b followed by a sequence of number 0 and 1.
+> - Octal literals start with 0o followed by a sequence of numbers between 0 and 7.
+> - Binary literals start with 0b followed by a sequence of number 0 and 1.
 
 
 

@@ -26,10 +26,10 @@ console.log(combinedMessage2);
 
 ### :memo: Summary!
 
-- JS string is primitive type and immutable
-- Literal strings can be declared using '' and "", but by logic it is preferable to use "" rather that ''. Because in many programming languages especially in statically typed languages like C, C++, C#, RUST and so on.
-- The length property returns the length of a string.
-- Use the comparison operators ('<,>,>=,<=') to compare strings. They will be compared by the order of alphabet.
+> - JS string is primitive type and immutable
+> - Literal strings can be declared using '' and "", but by logic it is preferable to use "" rather that ''. Because in many programming languages especially in statically typed languages like C, C++, C#, RUST and so on.
+> - The length property returns the length of a string.
+> - Use the comparison operators ('<,>,>=,<=') to compare strings. They will be compared by the order of alphabet.
 
 
 
