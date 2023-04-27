@@ -42,5 +42,12 @@
 9. Array
 
 > - Array is the sequence of elements with the same data type, also it can be called as order list of values with the same data type. There are a lot of methods which does their certain job. But the main and most used methods are:
->     - .pop() method that
+>   1. Method .push(arg) that adds element to the end of the array
+>   2. Method .pop() that deletes element from the end of the array
+>   3. Method .unshift(arg) that add element to the beginning of the array
+>   4. Method .shift() that deletes element from the beginning of the array
+> - Also there are other array methods that widely used:
+>   1. Method .indexOf(arg) that detects the index of that argument passed into the method. Returns the index of the arg passed in to the method.
+>   2. Method Array.isArray(array_name) that checks whether it is array or not. Return boolean value.
+
 
