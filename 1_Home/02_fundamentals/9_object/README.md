@@ -121,5 +121,6 @@ console.log("firstName" in employee); // false
 
 - An object is a collection of key-value pairs.
 - use the dot notaion (.) or bracket notation [] to access a property of an object.
+- You can properties to objects using . or [] notation by just assigning it to a certain value.
 - The delete operator removes the property from an object.
-- The in operator checks whether the object has the certain property or not.
+- The in operator checks whether the object has the certain property or not, and returns boolean value, true if it exists, false if it doesn't.
