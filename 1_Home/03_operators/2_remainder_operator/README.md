@@ -1,4 +1,4 @@
-## Remainder operator
+# Remainder operator
 
 > JS uses the % to represent the remainder operator. The remainder returns the remainder left over when one value is divided by another value.
 
