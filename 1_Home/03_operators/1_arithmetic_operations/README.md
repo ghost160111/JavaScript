@@ -246,10 +246,10 @@ console.log(currentEnergy); // 75
 ```
 
 > Outputs:
-> 40
-> 150
-> 25
-> 75
+> - 40
+> - 150
+> - 25
+> - 75
 
 
 ## :memo: Summary
