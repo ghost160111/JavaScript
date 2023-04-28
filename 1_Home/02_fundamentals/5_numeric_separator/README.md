@@ -1,4 +1,4 @@
-## Numeric separator
+# Numeric separator
 
 ### Introduction to the JS numeric separator
 
