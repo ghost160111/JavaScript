@@ -1,4 +1,4 @@
-## Arithmetic operations
+# Arithmetic operations
 
 ### Addition operator (+)
 

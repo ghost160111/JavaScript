@@ -1,4 +1,4 @@
-## Primitive vs reference values
+# Primitive vs reference values
 
 > When declaring variables, JS allocates them to two types of memory which are stack and heap. Primitive types like strings, numbers, booleans are stored in to the stack while complex types like an object is stored to the heap.
 

@@ -1,4 +1,4 @@
-## Boolean
+# Boolean
 
 > Boolean in programming languages paradigms are the types that has only two possible values which are true and false.
 

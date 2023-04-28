@@ -1,4 +1,4 @@
-## Number
+# Number
 
 - List of examples
 

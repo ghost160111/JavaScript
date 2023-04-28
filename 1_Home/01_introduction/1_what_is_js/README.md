@@ -1,4 +1,4 @@
-## What is JavaScript
+# What is JavaScript
 
 > This is the introduction section, here you will learn basics of JS, it does not cover a lot of topics
 

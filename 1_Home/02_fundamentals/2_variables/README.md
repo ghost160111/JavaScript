@@ -1,4 +1,4 @@
-## Variables
+# Variables
 
 > Declare variables and change variables
 

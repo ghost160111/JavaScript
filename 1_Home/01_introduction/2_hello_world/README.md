@@ -1,4 +1,4 @@
-## JS - Hello World Example
+# JS - Hello World Example
 
 > In <script async src=""></script> tag, async attribute instructs the web browser to fetch the js file in parallel and then parse and execute as soon as possible.
 

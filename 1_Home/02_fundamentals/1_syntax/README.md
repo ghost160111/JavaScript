@@ -1,4 +1,4 @@
-## Syntax
+# Syntax
 
 > Summary. JS syntax is pretty ugly, but it is useful in web development and especially in client side.
 

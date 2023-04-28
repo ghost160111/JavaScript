@@ -1,4 +1,4 @@
-## String
+# String
 
 > String is really important data type in programming, string itself can be defined as sequence of characters.
 

@@ -1,4 +1,4 @@
-## Object
+# Object
 
 ### Introduction to JS objects
 
