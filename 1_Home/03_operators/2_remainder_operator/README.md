@@ -21,7 +21,7 @@ where |remainder| < |divisor|
 
 > In this equation, the dividend, divisor, quotient, and remainder are all integers. The sign of the remainder is the same as the sign of the dividend.
 
-### JS remainder operator examples:
+## JS remainder operator examples:
 
 ### 1. Using the remainder operator with positive dividend example:
 
