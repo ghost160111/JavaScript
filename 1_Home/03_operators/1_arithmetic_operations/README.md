@@ -118,14 +118,14 @@ console.log(result); // NaN
 ```
 
 > Output:
-> 2
-> 2
-> 2
-> 2
-> Infinity
-> 0
-> 1
-> NaN
+> - 2
+> - 2
+> - 2
+> - 2
+> - Infinity
+> - 0
+> - 1
+> - NaN
 
 ### Multiplication Operator (*)
 
@@ -215,10 +215,10 @@ console.log(sub); // NaN
 ```
 
 > Outputs:
-> 120
-> 80
-> [object Object]20
-> NaN
+> - 120
+> - 80
+> - [object Object]20
+> - NaN
 
 
 > If the object doesn't have the valueOf() method but has the toString() method, JS engine will call toString() method to get the value for calculation. For example:
