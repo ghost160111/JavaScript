@@ -36,6 +36,7 @@ let a = 1;
 a -= 1; // same as 'a = a - 1'
 a *= 1; // same as 'a = a * 1'
 a /= 1; // same as 'a = a / 1'
+a %= 2; // same as 'a = a % 2'
 
 ```
 
