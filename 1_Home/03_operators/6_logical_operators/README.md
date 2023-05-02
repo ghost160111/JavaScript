@@ -1,4 +1,4 @@
-## Logical operators
+# Logical operators
 
 > The logical operators are important in JS because they allow you to compare variables and do something based on the result of that comparison.
 
@@ -204,7 +204,7 @@ let result = a || b;
 > The following truth table illustrates the result of the ```||``` operator based on the value of the operands:
 
 
-| a       | b      | a ```||``` b  |
+| a       | b      | ab  |
 |---------|--------|---------------|
 | true    | true   | true          |
 | true    | false  | true          |
@@ -261,7 +261,3 @@ The precedence of the logical operator is in the following order from the highes
 - The OR operator (```||```) is applied to two Boolean values and returns ```true``` if one of the operands is ```true```.
 - Both ```&&``` and ```||``` operator are short-circuited. They can be also applied to non-boolean values.
 - The logical operator precedense from the highest to the lowest is ```!```, ```&&```, and ```||```.
-
-
-
-
