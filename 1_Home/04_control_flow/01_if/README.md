@@ -16,5 +16,7 @@ If the ```condition``` evaluates to ```true```, the ```if``` statement executes 
 
 The following flowchart illustrates how the ```if``` statement works:
 
-<img src="https://www.javascripttutorial.net/wp-content/uploads/2022/01/javascript-if.svg" style="display:flex;justify-content:center;align-items:center;">
+<div style="display:flex;justify-content:center;align-items:center;">
+<img src="https://www.javascripttutorial.net/wp-content/uploads/2022/01/javascript-if.svg">
+</div>
 
