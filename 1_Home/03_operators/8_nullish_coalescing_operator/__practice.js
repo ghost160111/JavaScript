@@ -17,3 +17,6 @@ console.log(age); // undefined
 
 let test = 1 ?? console.log("HI");
 console.log(test); // 1
+
+let result2 = undefined ?? console.log("");
+console.log(result2); // undefined
