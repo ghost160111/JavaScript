@@ -254,7 +254,7 @@ The precedence of the logical operator is in the following order from the highes
 2. Logical AND (&&)
 3. Logical OR  (||)
 
-## :memo: Summary
+# :memo: Summary
 
 - The NOT operator (```!```) negates a boolean value. The (```!!```) converts a value into its real boolean value.
 - The AND operator (```&&```) is applied to two Boolean values and returns true if both values are true.
