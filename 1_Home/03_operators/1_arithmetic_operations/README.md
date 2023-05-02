@@ -252,7 +252,7 @@ console.log(currentEnergy); // 75
 > - 75
 
 
-## :memo: Summary
+# :memo: Summary
 
 > - Use the JS arithmetic operators including addition (+), substraction (-), multiplication (*), and division (/) to perform artimetic operations.
 
