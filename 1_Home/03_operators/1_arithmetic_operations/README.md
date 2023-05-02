@@ -1,6 +1,6 @@
 # Arithmetic operations
 
-### Addition operator (+)
+## Addition operator (+)
 
 > The addition operator returns the sum of two values. For example:
 
@@ -61,7 +61,7 @@ console.log(typeof result);  // string
 
 > From the example above we can say surely that if there is one string in addition operation, all the values will be concatenated. Which means every value will be converted into a string and concatenated definitely.
 
-### Substraction Operator (-)
+## Substraction Operator (-)
 
 > The substraction operator substracts one number from another. For example:
 
@@ -127,7 +127,7 @@ console.log(result); // NaN
 > - 1
 > - NaN
 
-### Multiplication Operator (*)
+## Multiplication Operator (*)
 
 > JS uses asteriks (*) to represent multiplication operator. The multiplication operator multiplies two values and returns a single value:
 
@@ -167,7 +167,7 @@ console.log(result); // 2
 
 ```
 
-### Using JS arithmetic operators with objects
+## Using JS arithmetic operators with objects
 
 > If a value is an object, the JS engine will call the valueOf() method of the object to get the value for calculation. For example:
 
