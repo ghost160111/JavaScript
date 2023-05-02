@@ -187,6 +187,16 @@ console.log(NaN != NaN); // true
 
 ## Summary
 
-> - In this tutorial you have learned how to use the JS comparison operators to compare values.
+> In this tutorial you have learned how to use the JS comparison operators to compare values.
+
+> - Comparison operators
+> - Compare numbers
+> - Compare strings
+> - Compare a number with a value of another type
+> - Compare an object with a non-object
+> - Compare a boolean with another value
+> - Compare null and undefined
+> - Compare NaN with other values
+> - Strict equal (===) and non strict equal (!==)
 
 
