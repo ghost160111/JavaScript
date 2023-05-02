@@ -172,7 +172,7 @@ console.log(result); // false
 
 ## Chain operators
 
-The following expression uses multiple __&&__ operators:
+The following expression uses multiple ```&&``` operators:
 
 ```js
 
@@ -180,13 +180,85 @@ let result = value1 && value2 && value3;
 
 ```
 
-> The __&&__ operator carries the following:
+> The ```&&``` operator carries the following:
 > - Evaluates values from left to right.
-> - For each value, converts it to a boolean. If the result is __false__, stops and returns the original value.
+> - For each value, converts it to a boolean. If the result is ```false```, stops and returns the original value.
 > - If all values are truthy values, returns the last value.
 
-> In other words, the __&&__ operator returns ther first falsy value or the last value if none were found.
+> In other words, the ```&&``` operator returns ther first falsy value or the last value if none were found.
 
 > :memo: If a value can be converted to true, it is so-called a truthy value. If a value can be converted to false, it is a so-called falsy value.
+
+## 3. The Logical OR operator (||)
+
+> JS uses the double pipe ```||``` to represent the logical OR operator. You can apply the ```||``` operator to two values of any type:
+
+```js
+
+let result = a || b;
+
+```
+
+> If ```a``` can be converted to ```true```, returns ```a```; else, returns ```b```. This rule is also applied to boolean values.
+
+> The following truth table illustrates the result of the ```||``` operator based on the value of the operands:
+
+| a       | b      | a || b  |
+| ------- | ------ | ------- |
+| true    | true   | true    |
+| true    | false  | true    |
+| false   | true   | true    |
+| false   | false  | false   |
+
+> The ```||``` operator returns ```false``` if both values evaluate to ```false```. In case either value is ```true```, the ```||``` operator returns ```true```. For example:
+
+```js
+
+let eligible = true,
+    required = false;
+
+console.log(eligible || required); // false
+
+```
+
+> From the example above, the expression ```eligible || required``` returns ```false``` because both values are ```false```.
+
+## The || operator is also short-circuited
+
+> The following example shows how to use multiple || operators in an expression:
+
+```js
+
+let result = value1 || value2 || value3;
+
+```
+
+> The ```||``` operator does the following:
+> - Evaluates values from the left to right.
+> - For each value, converts it to a boolean value. If the result of the conversion is ```true```, stops and returns the value.
+> - If all values have evaluated to ```false```, returns the last value.
+
+In other words, the chain of the ```||``` operators returns the first truthy value or the last one if no truthy value was found.
+
+## Logical operator precedense
+
+When you mix logical operators in an expression, the JS engine evaluates the operators based on a specified order. And this order is called the <i>operator precedense</i>.
+
+In other words, the operator precedense is the order of evaluation of logical operators in an expression.
+
+The precedence of the logical operator is in the following order from the highest to the lowest:
+
+1. Logical NOT (!)
+2. Logical AND (&&)
+3. Logical OR  (||)
+
+> ## Summary
+> - The NOT operator (```!```) negates a boolean value. The (```!!```) converts a value into its real boolean value.
+> - The AND operator (```&&```) is applied to two Boolean values and returns true if both values are true.
+> - The OR operator (```||```) is applied to two Boolean values and returns ```true``` if one of the operands is ```true```.
+> - Both ```&&``` and ```||``` operator are short-circuited. They can be also applied to non-boolean values.
+> - The logical operator precedense from the highest to the lowest is ```!```, ```&&```, and ```||```.
+
+
 
 
