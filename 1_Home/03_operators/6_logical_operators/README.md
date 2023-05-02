@@ -211,7 +211,7 @@ let result = a || b;
 | false   | true   | true          |
 | false   | false  | false         |
 
-> :warning: Pay attention, ```a or b``` here is ```a || b```.
+:warning: Pay attention, ```a or b``` here is ```a || b```.
 
 
 > The ```||``` operator returns ```false``` if both values evaluate to ```false```. In case either value is ```true```, the ```||``` operator returns ```true```. For example:
