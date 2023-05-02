@@ -14,15 +14,15 @@
         - [x] Object
         - [x] Primitive vs Reference values
         - [x] Array
-    - [ ] Operators
-        - [ ] Arithmetic Operations
-        - [ ] Remainder(modulus) operator
-        - [ ] Assignment operators
-        - [ ] Unary operators
-        - [ ] Logical operators
-        - [ ] Logical assignment operators
-        - [ ] Nullish coalescing operator
-        - [ ] Exponentiation operator
+    - [x] Operators
+        - [x] Arithmetic Operations
+        - [x] Remainder(modulus) operator
+        - [x] Assignment operators
+        - [x] Unary operators
+        - [x] Logical operators
+        - [x] Logical assignment operators
+        - [x] Nullish coalescing operator
+        - [x] Exponentiation operator
     - [ ] Control flow
         - [ ] if
         - [ ] if...else
