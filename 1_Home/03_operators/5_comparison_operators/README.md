@@ -185,7 +185,7 @@ console.log(NaN != NaN); // true
 
 > However, in the second comparison, since we use strict equal operator (===), JS doesn't convert the string before comparison, therefore the result is false.
 
-## Summary
+## :memo: Summary
 
 In this tutorial you have learned how to use the JS comparison operators to compare values.
 
