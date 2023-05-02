@@ -187,6 +187,6 @@ let result = value1 && value2 && value3;
 
 > In other words, the __&&__ operator returns ther first falsy value or the last value if none were found.
 
-> :memo: If a value can be converted to true, it is so-called a truthy value. If a value can be converted to false, it is a so-called falsy value.```
+> :memo: If a value can be converted to true, it is so-called a truthy value. If a value can be converted to false, it is a so-called falsy value.
 
 
