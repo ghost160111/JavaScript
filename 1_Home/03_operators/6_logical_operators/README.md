@@ -204,7 +204,7 @@ let result = a || b;
 > The following truth table illustrates the result of the ```||``` operator based on the value of the operands:
 
 
-| a       | b      | ```a || b```  |
+| a       | b      | a||b          |
 |---------|--------|---------------|
 | true    | true   | true          |
 | true    | false  | true          |
