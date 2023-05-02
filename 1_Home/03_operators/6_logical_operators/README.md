@@ -254,12 +254,13 @@ The precedence of the logical operator is in the following order from the highes
 2. Logical AND (&&)
 3. Logical OR  (||)
 
-> ## Summary
-> - The NOT operator (```!```) negates a boolean value. The (```!!```) converts a value into its real boolean value.
-> - The AND operator (```&&```) is applied to two Boolean values and returns true if both values are true.
-> - The OR operator (```||```) is applied to two Boolean values and returns ```true``` if one of the operands is ```true```.
-> - Both ```&&``` and ```||``` operator are short-circuited. They can be also applied to non-boolean values.
-> - The logical operator precedense from the highest to the lowest is ```!```, ```&&```, and ```||```.
+## :memo: Summary
+
+- The NOT operator (```!```) negates a boolean value. The (```!!```) converts a value into its real boolean value.
+- The AND operator (```&&```) is applied to two Boolean values and returns true if both values are true.
+- The OR operator (```||```) is applied to two Boolean values and returns ```true``` if one of the operands is ```true```.
+- Both ```&&``` and ```||``` operator are short-circuited. They can be also applied to non-boolean values.
+- The logical operator precedense from the highest to the lowest is ```!```, ```&&```, and ```||```.
 
 
 
