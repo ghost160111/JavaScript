@@ -110,7 +110,7 @@ let result = a && b;
 > The following truth table illustrates the result of the __&&__ operator when it is applied to two Boolean values:
 
 | a     | b     | a && b |
-| ----- | ----- | ------ |
+|-------|-------|--------|
 | true  | true  | true   |
 | true  | false | false  |
 | false | true  | false  |
@@ -204,7 +204,7 @@ let result = a || b;
 > The following truth table illustrates the result of the ```||``` operator based on the value of the operands:
 
 | a       | b      | a ```||``` b  |
-| ------- | ------ | ------------- |
+|---------|--------|---------------|
 | true    | true   | true          |
 | true    | false  | true          |
 | false   | true   | true          |
