@@ -203,7 +203,6 @@ let result = a || b;
 
 > The following truth table illustrates the result of the ```||``` operator based on the value of the operands:
 
-
 | a       | b      | a or b        |
 |---------|--------|---------------|
 | true    | true   | true          |
@@ -212,7 +211,6 @@ let result = a || b;
 | false   | false  | false         |
 
 :warning: Pay attention, ```a or b``` here is ```a || b```.
-
 
 > The ```||``` operator returns ```false``` if both values evaluate to ```false```. In case either value is ```true```, the ```||``` operator returns ```true```. For example:
 
