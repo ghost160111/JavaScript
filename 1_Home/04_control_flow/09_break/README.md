@@ -171,3 +171,57 @@ Output:
 - 1
 - 2
 - 3
+
+In this example, when the current value of i is 3, the break statement terminates the loop. Therefore, you see only three numbers in the output.
+
+The following flowchart illustrates how the break statement works in a while loop:
+
+<img src="https://www.javascripttutorial.net/wp-content/uploads/2022/01/javascript-break-in-while-loop.svg">
+
+## Using JS break statement in a do...while loop
+
+The following example uses a ```do...while``` statement to output five numbers from 0 to 5 to the console:
+
+```js
+let i = 0;
+
+do {
+    i++;
+    console.log(i);
+} while (i < 5);
+```
+
+Output:
+- 1
+- 2
+- 3
+- 4
+- 5
+
+Like a while loop, you can use a break statement to terminate a ```do...while``` loop. For example:
+
+```js
+let i = 0;
+
+do {
+    i++;
+    console.log(i);
+    if (i == 3) {
+        break;
+    }
+} while (i < 5);
+```
+
+Output:
+- 1
+- 2
+- 3
+
+The following flow chart shows how the break statement works in a ```do...while``` loop:
+
+<img src="https://www.javascripttutorial.net/wp-content/uploads/2022/08/JavaScript-break-do-while.svg">
+
+# :memo: Summary
+
+- Use the ```break``` statement to terminate a loop including for, while, and do...while prematurely.
+- When used in a nested loop, the ```break``` statement terminates the enclosing loop. To terminate the nested loop, you use a label statement.
