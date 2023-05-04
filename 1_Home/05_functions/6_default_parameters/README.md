@@ -249,7 +249,7 @@ The value of the arguments object inside the function is the number of actual ar
 
 ```js
 function add(x, y = 1, z = 2) {
-    console.log( arguments.length );
+    console.log(arguments.length);
     return x + y + z;
 }
 
