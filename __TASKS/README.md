@@ -23,22 +23,22 @@
         - [x] Logical assignment operators
         - [x] Nullish coalescing operator
         - [x] Exponentiation operator
-    - [ ] Control flow
-        - [ ] if
-        - [ ] if...else
-        - [ ] if...else if
-        - [ ] Ternary operators
-        - [ ] Switch
-        - [ ] While loop
-        - [ ] Do..while loop
-        - [ ] for loop
-        - [ ] break
-        - [ ] continue
-        - [ ] Comma operators
+    - [x] Control flow
+        - [x] if
+        - [x] if...else
+        - [x] if...else if
+        - [x] Ternary operators
+        - [x] Switch
+        - [x] While loop
+        - [x] Do..while loop
+        - [x] for loop
+        - [x] break
+        - [x] continue
+        - [x] Comma operators
     - [ ] Functions
-        - [ ] Introduction to functions
-        - [ ] Function first class citizens
-        - [ ] Anonymous functions
+        - [x] Introduction to functions
+        - [x] Function first class citizens
+        - [x] Anonymous functions
         - [ ] Pass by value
         - [ ] Recursive function
         - [ ] Default parameters
