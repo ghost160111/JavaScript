@@ -245,6 +245,21 @@ In the getPrice() function, we called the taxRate() function to get the tax rate
 
 ## The arguments object
 
-The value of the arguments object inside the function is the number of actual arguments that you pass 
+The value of the arguments object inside the function is the number of actual arguments that you pass to the function. For example:
 
+```js
+function add(x, y = 1, z = 2) {
+    console.log( arguments.length );
+    return x + y + z;
+}
 
+add(10); // 1
+add(10, 20); // 2
+add(10, 20, 30); // 3
+```
+
+Now, you should understand the JavaScript default function parameters and how to use them effectively.
+
+# :memo: Summary
+
+All in all, default parameters are the function parameters that has a assigned value which is also called as a default value.
