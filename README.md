@@ -4,8 +4,6 @@
 
 This document will basically contain useful information about JavaScript syntax and how to use basic APIs. There will be all topics that are related to vanilla JavaScript and maybe some Node.js & Express.js content, but it would probably be documented in other repository.
 
-> :memo: Let's start the documentation
-
 ## Content
 
 1. Home
