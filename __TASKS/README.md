@@ -35,17 +35,17 @@
         - [x] break
         - [x] continue
         - [x] Comma operators
-    - [ ] Functions
+    - [x] Functions
         - [x] Introduction to functions
         - [x] Function first class citizens
         - [x] Anonymous functions
-        - [ ] Pass by value
-        - [ ] Recursive function
-        - [ ] Default parameters
+        - [x] Pass by value
+        - [x] Recursive function
+        - [x] Default parameters
     - [ ] Object prototypes
-        - [ ] Object methods
-        - [ ] Constructor functions
-        - [ ] Prototype
+        - [x] Object methods
+        - [x] Constructor functions
+        - [x] Prototype
         - [ ] Constructor prototype pattern
         - [ ] Prototypal inheritance
         - [ ] this Keyword
