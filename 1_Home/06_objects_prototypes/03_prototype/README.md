@@ -277,8 +277,6 @@ Because the p1 object has the ```greet()``` method, JavaScript just executes it 
 
 This is an example of shadowing. The ```greet()``` method of the p1 object shadows the ```greet()``` method of the ```prototype``` object which the ```p1``` object references.
 
-
-
 # :memo: Summary
 
 - The ```Object()``` function has a property called prototype that references a ```Object.prototype``` object.
