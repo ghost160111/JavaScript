@@ -48,6 +48,7 @@ Object.defineProperty(person, "ssn", {
     // John Doe
 }
 
+// In practice, you will never use ES5 syntax to create object like above. It is better to create a class with individual properties, constructor and methods which also can be inherited to child classes to extend the functionalities.
 {
 class Person {
     constructor(firstName, lastName) {
@@ -115,4 +116,36 @@ let arr = [1, 2, 3];
 
 for (const el in arr) {
     console.log(el);
+}
+
+const TEST = {
+    firstName: "John",
+    lastName: "Marston",
+};
+
+for (const prop in TEST) {
+    console.log(prop + ": " + TEST[prop]);
+}
+
+{
+    const person = {
+        firstName: "John",
+        lastName: "Marston",
+    };
+    
+    person.age = 25;
+    
+    Object.defineProperty(person, "ssn", {
+        enumerable: false,
+        value: "123-456-7890",
+    });
+    
+    for (const key in person) {
+        console.log(key);
+    }
+
+    console.log(person.propertyIsEnumerable("firstName")); // true
+    console.log(person.propertyIsEnumerable("lastName")); // true
+    console.log(person.propertyIsEnumerable("age")); // true
+    console.log(person.propertyIsEnumerable("ssn")); // false
 }
