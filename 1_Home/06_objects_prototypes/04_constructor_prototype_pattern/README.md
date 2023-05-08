@@ -15,5 +15,36 @@ By using this pattern, all objects of the custom type share the methods defined 
 
 ## JS Constructor / Prototype example
 
-...
+Suppose that you want to define a custom type called ```Person``` that has:
 
+- Two properties ```firstName``` and ```lastName```
+- One method ```getFullName()```
+
+First, use the constructor function to initialize the properties:
+
+```js
+function Person(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+}
+```
+
+Behind the scene, the JS engine defines a ```Person``` function denoted by the circle and an anonymous object denoted by the square.
+
+The ```Person``` function has the ```prototype``` property that references an anonymous object. The anonymous object has a ```constructor``` property that references the ```Person``` function:
+
+<img src="https://www.javascripttutorial.net/wp-content/uploads/2022/01/JS-prototype-Person-prototype.svg">
+
+Second, define the ```getFullName()``` method in the ```prototype``` object of the ```Person``` function:
+
+```js
+Person.prototype.getFullName = function() {
+    return this.firstName + " " + this.lastName;
+}
+```
+
+JS defines the ```getFullName()``` method on the ```Person.prototype``` object like this:
+
+<img src="https://www.javascripttutorial.net/wp-content/uploads/2022/01/JS-prototype-constructor-pattern.svg">
+
+Third, create multiple instances of the `Person` type:
