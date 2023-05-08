@@ -301,3 +301,8 @@ console.log(car.getSpeed()); // undefined
 ```
 
 Inside the `getSpeed()` method, the `this` value reference the global object, not the `Car` object but the global object doesn't have a property called speed. Therefore, the `this.speed` in the `getSpeed()` method returns `undefined`.
+
+# :memo: Summary
+
+- This keyword is used to invoke the properties and methods of the global scope.
+- This keyword in other programming languages and in JS as well is used in OOP, specifically to invoke the properties of a class.
