@@ -56,3 +56,9 @@ console.log(brand()); // Honda
     getBrand.call(honda, "It's a "); // It's a Honda
     getBrand.call(audi, "It's an "); // It's an Audi
 }
+
+{
+    const canFetch = typeof globalThis.fetch === 'function';
+
+    console.log(canFetch); // true
+}
