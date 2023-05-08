@@ -46,12 +46,12 @@
         - [x] Object methods
         - [x] Constructor functions
         - [x] Prototype
-        - [ ] Constructor prototype pattern
-        - [ ] Prototypal inheritance
-        - [ ] this Keyword
-        - [ ] globalThis
-        - [ ] Object properties
-        - [ ] For..in loop
+        - [x] Constructor prototype pattern
+        - [x] Prototypal inheritance
+        - [x] this Keyword
+        - [x] globalThis
+        - [x] Object properties
+        - [x] For..in loop
         - [ ] Enumerable properties
         - [ ] Own properties
         - [ ] Object.values()
