@@ -48,3 +48,52 @@ Object.defineProperty(person, "ssn", {
     // John Doe
 }
 
+{
+    class Person {
+        constructor(firstName, lastName) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
+
+        set FirstName(firstName) { this.firstName = firstName; }
+        set LastName (lastName)  { this.lastName = lastName;   }
+
+        get FirstName() { return this.firstName; }
+        get LastName () { return this.lastName;  }
+
+        getFullName() {
+            return this.firstName + " " + this.lastName;
+        }
+
+        changeName(first, last) {
+            if (first === undefined) {
+                first = this.firstName;
+                this.lastName = last;
+            }
+            else if (last === undefined) {
+                last = this.lastName;
+                this.firstName = first;
+            }
+
+            this.firstName = first;
+            this.lastName = last;
+
+            return this.getFullName();
+        }
+    }
+
+    console.log("\n=====================");
+    const p = new Person("Alex", "Doe");
+    const fullname = p.getFullName();
+
+    console.log(fullname); // Alex Doe
+
+    function changeFullName(first, last) {
+        p.changeName(first, last);
+        return p.getFullName();
+    }
+
+    const changed = changeFullName("John", "Marston");
+    console.log(changed); // John Marston
+}
+
