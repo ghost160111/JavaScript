@@ -123,7 +123,7 @@ Array.prototype.foo = 100;
 const items = [10, 20, 30];
 let total = 0;
 
-for (var prop in items) {
+for (let prop in items) {
     console.log({ prop, value: items[prop] });
     total += items[prop];
 }
