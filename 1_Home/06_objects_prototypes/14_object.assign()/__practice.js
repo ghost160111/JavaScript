@@ -45,3 +45,22 @@ console.log(styleBox);
     
     console.log(styleBox);
 }
+
+
+{
+    let A = {
+        width: 20,
+    };
+
+    let B = {
+        width: 40,
+    };
+
+    let C = {
+        width: 60,
+    };
+
+    let D = Object.assign({}, A, B, C);
+
+    console.log(D); // 60
+}

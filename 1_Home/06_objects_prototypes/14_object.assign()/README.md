@@ -93,6 +93,32 @@ Output:
 }
 ```
 
+One more example about assignation:
+
+```js
+let A = {
+    width: 20,
+};
+
+let B = {
+    width: 40,
+};
+
+let C = {
+    width: 60,
+};
+
+let D = Object.assign({}, A, B, C);
+
+console.log(D);
+```
+
+Output:
+
+```
+{ width: 60 }
+```
+
 # :memo: Summary
 
 - `Object.assign()` assigns enumerable and own properties from a source object to a target object.
