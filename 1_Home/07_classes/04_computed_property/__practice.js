@@ -1,12 +1,11 @@
-let menu = "burgerMenu";
-let menu_on = "menu on";
-let menu_off = "menu off";
-
-let menu_id = "menu";
-let menu_on_id = "on";
-let menu_off_id = "off";
-
 class MobileNav {
+    menu = "burgerMenu";
+    menu_on = "menu on";
+    menu_off = "menu off";
+    menu_id = "menu";
+    menu_on_id = "on";
+    menu_off_id = "off";
+    
     constructor(burgerMenu, menuOn, menuOff) {
         this.burgerMenu = burgerMenu;
         this.menuOn = menuOn;
@@ -30,5 +29,15 @@ class MobileNav {
     set [menu_off](turn_off_btn_id) {
         turn_off_btn_id = menu_off_id;
         this.menuOff = turn_off_btn_id;
+    }
+
+    turn_on(menu_on_btn_id) {
+        menu_on_btn_id = menu_on_id;
+        let btn = document.getElementById(menu_on_btn_id);
+        
+    }
+
+    turn_off(menu_off_btn_id) {
+
     }
 }
