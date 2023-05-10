@@ -23,7 +23,7 @@ class MobileNav extends Nav {
             btn1 = this.doc.getElementById(btn_id1),
             btn2 = this.doc.getElementById(btn_id2);
         
-        menu.style.display  = this.on;
+        menu.style.display = this.on;
         btn1.style.display = this.off;
         btn2.style.display = this.on;
 
@@ -36,7 +36,7 @@ class MobileNav extends Nav {
             btn1 = this.doc.getElementById(btn_id1),
             btn2 = this.doc.getElementById(btn_id2);
         
-        menu.style.display  = this.off;
+        menu.style.display = this.off;
         btn1.style.display = this.on;
         btn2.style.display = this.off;
 
