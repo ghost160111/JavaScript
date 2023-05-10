@@ -8,7 +8,7 @@ class Nav {
 class MobileNav extends Nav {
 
     constructor(on, off) {
-        super(); // accesses to parent properties
+        super();
 
         this.on = on;
         this.off = off;
