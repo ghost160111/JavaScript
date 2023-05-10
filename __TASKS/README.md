@@ -52,21 +52,21 @@
         - [x] globalThis
         - [x] Object properties
         - [x] For..in loop
-        - [ ] Enumerable properties
-        - [ ] Own properties
-        - [ ] Object.values()
-        - [ ] Object.entries()
-        - [ ] Object.assign() 
-        - [ ] Object.is()
-        - [ ] Factory functions
-        - [ ] Object destructuring
-        - [ ] Optional chaining operator
-        - [ ] Object literal syntax extension
+        - [x] Enumerable properties
+        - [x] Own properties
+        - [x] Object.values()
+        - [x] Object.entries()
+        - [x] Object.assign() 
+        - [x] Object.is()
+        - [x] Factory functions
+        - [x] Object destructuring
+        - [x] Optional chaining operator
+        - [x] Object literal syntax extension
     - [ ] Classes
-        - [ ] Introduction to classes in JS
-        - [ ] Getters and Setters
-        - [ ] Class expression
-        - [ ] Computed property
+        - [x] Introduction to classes in JS
+        - [x] Getters and Setters
+        - [x] Class expression
+        - [x] Computed property
         - [ ] Inheritance
         - [ ] new.target
         - [ ] Static methods
