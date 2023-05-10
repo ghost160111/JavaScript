@@ -171,3 +171,17 @@ meeting.add("John").add("Jane").add("Peter");
 console.log(`The latest attendee is ${meeting.latest}.`);
 ```
 
+Output:
+
+```
+John joined a meeting.
+Jane joined a meeting.
+Peter joined a meeting.
+The latest attendee is Peter.
+```
+
+# :memo: Summary
+
+- Use the `get` and `set` keywords to define the JS getters and setters for a class or an object.
+- The `get` keyword binds an object property to a method that will be invoked when that property is looked up.
+- The `set` keyword binds an object property to a method that will be invoked when that property is assigned.
