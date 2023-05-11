@@ -102,7 +102,7 @@ console.log(person.getFullName(false)); // Marston John
 Output:
 
 ```
-John Marston
+Marston John
 ```
 
 In this example:
