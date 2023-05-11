@@ -10,12 +10,7 @@ class Person {
         return this.name;
     }
     static createAnonymous(gender) {
-        let name;
-        if (gender == "male") {
-            name = "John Marston";
-        } else {
-            name = "Jane Morgah";
-        }
+        let name = gender == "male" ? "John Marston" : "Jane Smith";
         return name;
     }
 }
