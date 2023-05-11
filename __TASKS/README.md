@@ -42,7 +42,7 @@
         - [x] Pass by value
         - [x] Recursive function
         - [x] Default parameters
-    - [ ] Object prototypes
+    - [x] Object prototypes
         - [x] Object methods
         - [x] Constructor functions
         - [x] Prototype
@@ -62,16 +62,16 @@
         - [x] Object destructuring
         - [x] Optional chaining operator
         - [x] Object literal syntax extension
-    - [ ] Classes
+    - [x] Classes
         - [x] Introduction to classes in JS
         - [x] Getters and Setters
         - [x] Class expression
         - [x] Computed property
-        - [ ] Inheritance
-        - [ ] new.target
-        - [ ] Static methods
-        - [ ] Private fields
-        - [ ] Private methods
+        - [x] Inheritance
+        - [x] new.target
+        - [x] Static methods
+        - [x] Private fields
+        - [x] Private methods
     - [ ] Advanced functions
         - [ ] Function type
         - [ ] call()
