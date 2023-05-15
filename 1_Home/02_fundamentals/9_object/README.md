@@ -1,14 +1,14 @@
 # Object
 
-### Introduction to JS objects
+## Introduction to JS objects
 
-> In JavaScript, an object is an unordered collection of key-value pairs. Each key-value pair is called a property.
+In JavaScript, an object is an unordered collection of key-value pairs. Each key-value pair is called a property.
 
-> The key of a property can be a string. And the value of a property can be any value, e.g., a string, a number, an array, and even a function.
+The key of a property can be a string. And the value of a property can be any value, e.g., a string, a number, an array, and even a function.
 
-> JavaScript provides you with many ways to create an object. The most commonly used one is to use the object literal notation.
+JavaScript provides you with many ways to create an object. The most commonly used one is to use the object literal notation.
 
-> The following example creates an empty object using the object literal notation:
+The following example creates an empty object using the object literal notation:
 
 ```js
 
@@ -16,7 +16,7 @@ let empty = {};
 
 ```
 
-> To create an object with properties, you use key:value within curly braces. For example:
+To create an object with properties, you use key:value within curly braces. For example:
 
 ```js
 
@@ -47,13 +47,13 @@ console.log(person.lastName);  // Williams
 
 ```
 
-> As you can see, you can declare, you can change properties, but there is only one thing that is important to note that if change propertie(s) it won't be changed in functions inside of the objects.
+As you can see, you can declare, you can change properties, but there is only one thing that is important to note that if change propertie(s) it won't be changed in functions inside of the objects.
 
-> Above example code shows everything you need to know and note about objects. Remember it is complex data type in contrast with primitive ones. You should understand their positive and negative sides.
+Above example code shows everything you need to know and note about objects. Remember it is complex data type in contrast with primitive ones. You should understand their positive and negative sides.
 
-### Adding a new property to an object
+## Adding a new property to an object
 
-> Here is the example that clearly shows of adding new property to an object:
+Here is the example that clearly shows of adding new property to an object:
 
 ```js
 
@@ -69,9 +69,9 @@ console.log(person.age); // 25
 
 ```
 
-### Deleting a property of an object
+## Deleting a property of an object
 
-> Here is the example that clearly shows how to delete a property of an object:
+Here is the example that clearly shows how to delete a property of an object:
 
 ```js
 
@@ -88,9 +88,9 @@ delete person.age;
 
 ```
 
-### Checking if object property exists
+## Checking if object property exists
 
-> To check the existence of an object's property, use should use 'in' operator. See the following example:
+To check the existence of an object's property, use should use 'in' operator. See the following example:
 
 ```js
 
@@ -117,10 +117,10 @@ console.log("firstName" in employee); // false
 
 ```
 
-### :memo: Summary!
+# :memo: Summary!
 
-> - An object is a collection of key-value pairs.
-> - use the dot notaion (.) or bracket notation [] to access a property of an object.
-> - You can properties to objects using . or [] notation by just assigning it to a certain value.
-> - The delete operator removes the property from an object.
-> - The in operator checks whether the object has the certain property or not, and returns boolean value, true if it exists, false if it doesn't.
+- An object is a collection of key-value pairs.
+- use the dot notaion (.) or bracket notation [] to access a property of an object.
+- You can properties to objects using . or [] notation by just assigning it to a certain value.
+- The delete operator removes the property from an object.
+- The in operator checks whether the object has the certain property or not, and returns boolean value, true if it exists, false if it doesn't.
