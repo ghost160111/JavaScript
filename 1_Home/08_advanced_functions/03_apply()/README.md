@@ -48,7 +48,7 @@ The following example shows how to use the apply() method to call the greet() fu
 let result = greet.apply(person, ["Hi", "I have question for you, where is your laptop, I thought that you would like to give me some data from it."]);
 ```
 
-Output: 
+Output:
 
 ```
 Hi John. I have question for you, where is your laptop, I thought that you would like to give me some data from it.
