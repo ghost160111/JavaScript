@@ -127,7 +127,7 @@ Counter.prototype.next = function () {
 
 Counter.prototype.current = function () {
     return ++this.next;
-}
+};
 ```
 
 ## 4) Functions that use the arguments object
