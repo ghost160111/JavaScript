@@ -73,10 +73,10 @@
         - [x] Private fields
         - [x] Private methods
     - [ ] Advanced functions
-        - [ ] Function type
-        - [ ] call()
-        - [ ] apply()
-        - [ ] bind()
+        - [x] Function type
+        - [x] call()
+        - [x] apply()
+        - [x] bind()
         - [ ] Closure
         - [ ] IIFE
         - [ ] Returning multiple values
