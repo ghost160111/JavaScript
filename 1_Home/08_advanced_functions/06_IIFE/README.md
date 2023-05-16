@@ -283,4 +283,6 @@ The following example illustrates how to change the jQuery $ object to _ inside 
 
 In this example, we passed the jQuery object into the IIFE and used the `_` argument instead.
 
-In this doc page, you've learned about the JavaScript immediately invoked function expressions (IIFE) and their purposes.
+# :memo: Summary
+
+- In this doc page, you've learned about the JavaScript immediately invoked function expressions (IIFE) and their purposes.
