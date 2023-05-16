@@ -37,27 +37,3 @@ console.log(sum_3); // 30
 // Outputs: 30
 
 /* ... */
-
-class MyMath {
-    #a;
-    #b;
-    #c;
-
-    constructor(a, b, c) {
-        this.#a = a;
-        this.#b = b;
-        this.#c = c;
-    }
-
-    add(...a) {
-        return (a + ...);
-    }
-
-    multiply(a, b, ...c) {
-        return (a * b * c);
-    }
-}
-
-let operation = new MyMath();
-
-console.log(`Result: ${operation.add(10, 20)}`);
