@@ -56,7 +56,7 @@ See the following `counter` object:
 const counter = {
     count: 0,
     next: () => ++this.count,
-    current: () => this.count,
+    current: () => this.next,
 };
 ```
 
