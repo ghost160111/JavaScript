@@ -60,6 +60,6 @@
     var showNumbers = new Function("...numbers", "console.log(numbers");
     var show = showNumbers(1, 2, 3, null);
 
-    console.log(show); // 
+    console.log(show); // 1, 2, 3
 }
 
