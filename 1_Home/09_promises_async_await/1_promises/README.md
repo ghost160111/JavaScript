@@ -333,11 +333,228 @@ const promise = getUsers();
 promise.then(onFulfilled, onRejected);
 ```
 
+How it works
 
+First, define the success variable and initialize its value to true.
 
+If the success is true, the promise in the getUsers() function is fulfilled with a user list. Otherwise, it is rejected with an error message.
 
+Second, define the onFulfilled and onRejected functions.
 
+Third, get the promise from the getUsers() function and call the then() method with the onFulfilled and onRejected functions.
 
+The following shows how to use the arrow functions as the arguments of the then() method:
 
+```js
+// getUsers() function
+// ...
 
+const promise = getUsers();
+promise.then(
+    (users) => console.log(users),
+    (error) => console.log(error)
+);
+```
 
+## The catch() method
+
+If you want to get the error only when the state of the promise is rejected, you can use the catch() method of the Promise object:
+
+```js
+promise.catch(onRejected);
+```
+
+Internally, the catch() method invokes the then(undefined, onRejected) method.
+
+The following example changes the success flag to false to simulate the error scenario:
+
+```js
+let success = true;
+let users = [
+    { username: "John", email: "john@test.com" },
+    { username: "Jane", email: "jane@test.com" },
+];
+
+function getUsers() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (success) {
+                resolve(users);
+            }
+            else {
+                reject("Failed to load the users list");
+            }
+        }, 1000);
+    });
+}
+
+const promise = getUsers();
+
+promise.catch((error) => console.log(error));
+```
+
+## The finally() method
+
+Sometimes, you want to execute the same piece of code whether the promise is fulfilled or rejected. For example:
+
+```js
+const render = () => {
+    // ...
+};
+
+getUsers()
+    .then((users) => {
+        console.log(users);
+        render();
+    })
+    .catch((error) => {
+        console.log(error);
+        render();
+    });
+```
+
+As you can see, the render() function call is duplicated in both then() and catch() methods.
+
+To remove this duplicate and execute the render() whether the promise is fulfilled or rejected, you use the finally() method, like this:
+
+```js
+const render = () => {
+    // ... 
+}
+
+getUsers()
+    .then((users) => {
+        console.log(users);
+    })
+    .catch((error) => {
+        console.log(error);
+    })
+    .finally(() => {
+        render();
+    });
+```
+
+## A practical JS example
+
+The following example shows how to load a JSON file from the server to display its contents on a webpage.
+
+Suppose you have the following JSON file:
+
+```
+https://www.javascriptutorial.net/sample/promise/api.json
+```
+
+with the following contents:
+
+```JSON
+{
+    message: "JavaScript promise example"
+}
+```
+
+The following shows the HTML page that contains a button. When you click the button, the page loads data from the JSON file and shows the message:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../practical_promise_example/style.css">
+    <title>Promise Example</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div id="message"></div>
+        <button class="btn-get" id="btnGet">Get Message</button>
+    </div>
+    <script src="../practical_promise_example/promise-demo.js"></script>
+</body>
+</html>
+```
+
+The following shows the promise-demo.js file;
+
+```js
+function load(url) {
+    return new Promise(function (resolve, reject) {
+        const request = new XMLHttpRequest();
+        request.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status == 200) {
+                resolve(this.response);
+            }
+            else {
+                reject(this.status);
+            }
+        };
+        request.open("GET", url, true);
+        request.send();
+    });
+}
+
+const url = 'https://www.javascripttutorial.net/sample/promise/api.json';
+const btn = document.querySelector("#btnGet");
+const msg = document.querySelector("#message");
+
+btn.addEventListener("click", () => {
+    load(url)
+        .then((response) => {
+            const result = JSON.parse(response);
+            msg.innerHTML = result.message;
+        })
+        .catch((error) => {
+            msg.innerHTML = `Error getting the message HTTP status: ${error}`;
+        });
+});
+```
+
+How it works.
+
+First, define the `load()` function that uses the `XMLHttpRequest` object to load the JSON file from the server:
+
+```js
+function load(url) {
+    return new Promise(function (resolve, reject) {
+        const request = new XMLHttpRequest();
+        request.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status == 200) {
+                resolve(this.response);
+            }
+            else {
+                reject(this.status);
+            }
+        };
+        request.open("GET", url, true);
+        request.send();
+    });
+}
+```
+
+In the executor, we call resolve() function with the Response if the HTTP status code is 200. Otherwise, we invoke the reject() function with the HTTP status code.
+
+Second, register the button click event listener and call the then() method of the promise object. If the load is successful, then we show the message returned from the server. Otherwise, we show the error message with the HTTP status code.
+
+```js
+const url = 'https://www.javascripttutorial.net/sample/promise/api.json';
+const btn = document.querySelector("#btnGet");
+const msg = document.querySelector("#message");
+
+btn.addEventListener("click", () => {
+    load(url)
+        .then((response) => {
+            const result = JSON.parse(response);
+            msg.innerHTML = result.message;
+        })
+        .catch((error) => {
+            msg.innerHTML = `Error getting the message HTTP status: ${error}`;
+        });
+});
+```
+
+# :memo: Summary
+
+- A promise is an object that encapsulates the result of an asynchronous operation.
+- A promise starts in the pending state and ends in either fulfilled state or rejected state.
+- Use `then()` method to schedule a callback to be executed when the promise is fulfilled, and `catch()` method to schedule a callback to be invoked when the promise is rejected.
+- Place the code that you want to execute in the `finally()` method whether the promise is fulfilled or rejected.

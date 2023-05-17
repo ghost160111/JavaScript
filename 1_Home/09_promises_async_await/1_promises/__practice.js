@@ -19,7 +19,7 @@
         return user;
     }
     
-    console.log(findUser("John")); // undefined
+    //console.log(findUser("John")); // undefined
 }
 
 // Because getUsers() returns an empty array, users array is empty (line A)
@@ -47,7 +47,7 @@
         });
     }
 
-    findUser("John", console.log);
+    //findUser("John", console.log);
     // { username: 'John', email: 'john@test.com' }
 }
 
