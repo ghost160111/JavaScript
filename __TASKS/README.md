@@ -77,12 +77,12 @@
         - [x] call()
         - [x] apply()
         - [x] bind()
-        - [ ] Closure
-        - [ ] IIFE
-        - [ ] Returning multiple values
-        - [ ] Arrow functions
-        - [ ] When you should not use arrow functions
-        - [ ] Rest parameter
+        - [x] Closure
+        - [x] IIFE
+        - [x] Returning multiple values
+        - [x] Arrow functions
+        - [x] When you should not use arrow functions
+        - [x] Rest parameter
         - [ ] Callback functions
     - [ ] Promises, async, await
         - [ ] Intro to promises
