@@ -72,7 +72,7 @@
         - [x] Static methods
         - [x] Private fields
         - [x] Private methods
-    - [ ] Advanced functions
+    - [x] Advanced functions
         - [x] Function type
         - [x] call()
         - [x] apply()
@@ -83,9 +83,9 @@
         - [x] Arrow functions
         - [x] When you should not use arrow functions
         - [x] Rest parameter
-        - [ ] Callback functions
+        - [x] Callback functions
     - [ ] Promises, async, await
-        - [ ] Intro to promises
+        - [x] Intro to promises
         - [ ] Promise chaining
         - [ ] Promise.all() vs Promise.race()
         - [ ] Promise.any()
