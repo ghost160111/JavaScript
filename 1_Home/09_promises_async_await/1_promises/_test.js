@@ -287,14 +287,8 @@
 
     const promise = getUsers();
 
-    promise.then((users) => {
-        console.log(users);
-    })
-    promise.catch((error) => {
-        console.log(error);
-    })
-    promise.finally(() => {
-        render();
-    });
+    promise.then((users) => console.log(users))
+    promise.catch((error) => console.log(error))
+    promise.finally(() => render());
 }
 
