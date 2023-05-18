@@ -260,5 +260,41 @@
         });
 }
 
+// Practice of promises
 
+{
+    let success = true;
+    let users = [
+        { username: "John", email: "john@test.com" },
+        { username: "Jane", email: "jane@test.com" },
+    ];
+
+    const render = () => {
+        // ...
+    };
+
+    function getUsers() {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (success) {
+                    resolve(users);
+                } else {
+                    reject("Failed to load the users list");
+                }
+            }, 10000);
+        });
+    }
+
+    const promise = getUsers();
+
+    promise.then((users) => {
+        console.log(users);
+    })
+    promise.catch((error) => {
+        console.log(error);
+    })
+    promise.finally(() => {
+        render();
+    });
+}
 
