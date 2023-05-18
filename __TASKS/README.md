@@ -86,8 +86,9 @@
         - [x] Callback functions
     - [ ] Promises, async, await
         - [x] Intro to promises
-        - [ ] Promise chaining
-        - [ ] Promise.all() vs Promise.race()
+        - [x] Promise chaining
+        - [x] Promise.all()
+        - [ ] Promise.race()
         - [ ] Promise.any()
         - [ ] Promise.allSettled()
         - [ ] Promise.prototype.finally()
