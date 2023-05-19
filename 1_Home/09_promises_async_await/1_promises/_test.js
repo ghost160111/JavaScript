@@ -199,7 +199,7 @@
 
 // The catch() method
 {
-    let success = false;
+    let success = true;
     let users = [
         { username: "John", email: "john@test.com" },
         { username: "Jane", email: "jane@test.com" },
@@ -267,10 +267,12 @@
     let users = [
         { username: "John", email: "john@test.com" },
         { username: "Jane", email: "jane@test.com" },
+        { username: "Johny", email: "johny@test.com" },
+        { username: "Tyler", email: "tyler@test.com" },
     ];
 
     const render = () => {
-        // ...
+        console.log("All tasks are completed...");
     };
 
     function getUsers() {
