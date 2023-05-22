@@ -54,6 +54,8 @@ async function showServiceCost() {
         console.log(`The service cost is ${cost}`);
     } catch(error) {
         console.log(error);
+    } finally {
+        console.log("Tasks completed!");
     }
 }
 
