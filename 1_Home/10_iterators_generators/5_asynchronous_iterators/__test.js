@@ -60,7 +60,6 @@
                         let result = { value: nextIndex, done: false };
                         nextIndex += this.#interval;
                         counter++;
-                        
                         return new Promise((resolve, reject) => {
                             setTimeout(() => {
                                 resolve(result);
