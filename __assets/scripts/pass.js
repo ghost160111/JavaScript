@@ -17,7 +17,7 @@ class PasswordGenerators {
 }
 
 let length = 8,
-    charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+{}[]";
+    charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 let passwordGenerator = new PasswordGenerators(length, charset);
 let randomPassword = passwordGenerator.generatePassword();
