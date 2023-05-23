@@ -1,3 +1,8 @@
-let message = "ES6 modules";
+const message = "ES6 modules";
 
-export { message };
+const setMessage = (msg) => {
+    message = msg;
+}
+
+export { message, setMessage };
+
