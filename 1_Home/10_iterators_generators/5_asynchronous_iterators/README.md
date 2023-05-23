@@ -74,14 +74,12 @@ class AsyncSequence {
                 let result = { value: nextIndex, done: false },
                 nextIndex += this.#interval;
                 counter++;
-
                 return new Promise((resolve, reject) => {
                     setTimeout(() => {
                         resolve(result);
                     }, 1000);
                 });
             }
-            
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
                     resolve({
