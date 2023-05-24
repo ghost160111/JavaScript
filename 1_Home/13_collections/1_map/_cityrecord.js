@@ -33,8 +33,6 @@ citiesMap
     .set("LOD", new CityRecord("London", 12480999, 14.42, 23.34))
     .set("MSC", new CityRecord("Massachussets", 10433452, 656.33, 324.34));
 
-//citiesMap.forEach(city => console.log(city.iterate()));
-
 const getCityData = (cityKey) => {
     if (citiesMap.keys(cityKey) !== undefined || null) {
         console.log(citiesMap.get(cityKey).iterate());
