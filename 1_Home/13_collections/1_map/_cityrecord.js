@@ -47,9 +47,9 @@ const getAllCitiesList = () => {
     for (const city of cities) {
         console.log(city.iterate());
     }
-    // OR
-    //cities.forEach(city => console.log(city.iterate()));
 }
+
+const getAllCitiesList2ndVersion = () => cities.forEach(city => console.log(city.iterate()));
 
 // EXAMPLE: GET SPECIFIC CITY USING ITS KEY
 getCityData("NYC");
@@ -60,6 +60,8 @@ getCityData("NYC");
 
 // EXAMPLE: GET ALL DATA ABOUT ALL CITIES
 getAllCitiesList();
-// Output: all data about cities
+// Output: prints the data about all cities
+getAllCitiesList2ndVersion();
+// Output: prints the data about all cities
 
 //#endregion
