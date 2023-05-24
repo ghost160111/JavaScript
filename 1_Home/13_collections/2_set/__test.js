@@ -154,4 +154,42 @@ let set = {
     // Set(3) { null, { username: "ghost", major: "developer" }, 15n }
 
     console.log("\n");
+
+    //#region 
+    class CityRecord {
+        #city;
+        #population;
+        #latitude;
+        #altitude;
+        constructor(city, population, latitude, altitude) {
+            this.#city = city;
+            this.#population = population;
+            this.#latitude = latitude;
+            this.#altitude = altitude;
+        }
+        iterate() {
+            let result;
+            while(true) {
+                result = `City: ${this.#city}\nPopulation: ${this.#population}\nLatitude: ${this.#latitude}\nAltitude: ${this.#altitude}\n`;
+                break;
+            }
+            return result;
+        }
+    }
+
+    let cities = [
+        new CityRecord("New York", 14433300, 214.42, 232.32),
+        new CityRecord("London", 12480999, 14.42, 23.34),
+        new CityRecord("Massachussets", 10433452, 656.33, 324.34),
+    ];
+
+    // FIRST METHOD
+    for (const city of cities) {
+        console.log(city.iterate());
+    }
+
+    // SECOND METHOD
+    cities.forEach((city) => console.log(city.iterate()));
+
+    //#endregion
 }
