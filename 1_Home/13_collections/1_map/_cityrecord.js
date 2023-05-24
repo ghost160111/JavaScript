@@ -41,8 +41,7 @@ const getCityData = (cityKey) => {
     } else {
         console.log('There is no city like this: "' + cityKey + '"');
     }
-};
-getCityData("NYC");
+}
 
 const getAllCitiesList = () => {
     for (const city of cities) {
@@ -51,5 +50,16 @@ const getAllCitiesList = () => {
     // OR
     //cities.forEach(city => console.log(city.iterate()));
 }
+
+// EXAMPLE: GET SPECIFIC CITY USING ITS KEY
+getCityData("NYC");
+// City: New York
+// Population: 14433300
+// Latitude: 214.42
+// Altitude: 232.32
+
+// EXAMPLE: GET ALL DATA ABOUT ALL CITIES
+getAllCitiesList();
+// Output: all data about cities
 
 //#endregion
