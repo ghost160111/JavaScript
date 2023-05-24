@@ -13,7 +13,7 @@ let set = {
 
     let result = chars instanceof Set;
     console.log(result); // true
-    
+
     console.log("\n");
 }
 
@@ -125,6 +125,33 @@ let set = {
     }
     // Outputs:
     // We have server!
+
+    console.log("\n");
+}
+
+// PRACTICE
+{
+    console.log("Topic: Practice\n");
+    let randomSets = new Set();
+
+    // add sets of unique values
+    randomSets.add("random string");
+    randomSets.add(null);
+    randomSets.add({ username: "ghost", major: "developer" });
+    randomSets.add(15n);
+
+    randomSets.forEach(unqkey => console.log(unqkey));
+    // Outputs:
+    // random string
+    // null
+    // { username: "ghost", major: "developer" }
+    // 15n
+
+    // delete some sets
+    randomSets.delete("random string");
+
+    console.log(randomSets);
+    // Set(3) { null, { username: "ghost", major: "developer" }, 15n }
 
     console.log("\n");
 }
