@@ -48,15 +48,8 @@ const getAllCitiesList = () => {
     for (const city of cities) {
         console.log(city.iterate());
     }
+    // OR
+    //cities.forEach(city => console.log(city.iterate()));
 }
-
-
-// FIRST METHOD
-//for (const city of cities) {
-//    console.log(city.iterate());
-//}
-
-// SECOND METHOD
-//cities.forEach((city) => console.log(city.iterate()));
 
 //#endregion
