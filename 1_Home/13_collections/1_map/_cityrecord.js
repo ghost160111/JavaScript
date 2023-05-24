@@ -1,4 +1,4 @@
-//#region
+//#region CityRecord
 class CityRecord {
     #city;
     #population;
