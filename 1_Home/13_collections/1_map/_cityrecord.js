@@ -20,12 +20,6 @@ class CityRecord {
     }
 }
 
-let cities = [
-    new CityRecord("New York", 14433300, 214.42, 232.32),
-    new CityRecord("London", 12480999, 14.42, 23.34),
-    new CityRecord("Massachussets", 10433452, 656.33, 324.34),
-];
-
 let citiesMap = new Map();
 
 citiesMap
