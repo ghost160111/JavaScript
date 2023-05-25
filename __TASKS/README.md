@@ -84,41 +84,41 @@
         - [x] When you should not use arrow functions
         - [x] Rest parameter
         - [x] Callback functions
-    - [ ] Promises, async, await
+    - [x] Promises, async, await
         - [x] Intro to promises
         - [x] Promise chaining
         - [x] Promise.all()
-        - [ ] Promise.race()
-        - [ ] Promise.any()
-        - [ ] Promise.allSettled()
-        - [ ] Promise.prototype.finally()
-        - [ ] Promise error handling
-        - [ ] Async & Await
-    - [ ] Iterators, generators
-        - [ ] Iterators
-        - [ ] Generators
-        - [ ] Yeild
-        - [ ] For..of
-        - [ ] Asynchronous iterators
-        - [ ] Asynchronous generators
-    - [ ] Modules
-        - [ ] Modules
-        - [ ] Dynamic import
-        - [ ] Top-level await
+        - [x] Promise.race()
+        - [x] Promise.any()
+        - [x] Promise.allSettled()
+        - [x] Promise.prototype.finally()
+        - [x] Promise error handling
+        - [x] Async & Await
+    - [x] Iterators, generators
+        - [x] Iterators
+        - [x] Generators
+        - [x] Yeild
+        - [x] For..of
+        - [x] Asynchronous iterators
+        - [x] Asynchronous generators
+    - [x] Modules
+        - [x] Modules
+        - [x] Dynamic import
+        - [x] Top-level await
     - [ ] Symbol
         - [ ] Intro to symbols
-    - [ ] Collections
-        - [ ] Map
-        - [ ] Set
-    - [ ] Error handling
-        - [ ] Try..catch
-        - [ ] Try..catch..finally
-        - [ ] Throw
-        - [ ] Optional catch binding
-    - [ ] JS - var, let, const keywords
-        - [ ] Let
-        - [ ] Let vs Var
-        - [ ] Const
+    - [x] Collections
+        - [x] Map
+        - [x] Set
+    - [x] Error handling
+        - [x] Try..catch
+        - [x] Try..catch..finally
+        - [x] Throw
+        - [x] Optional catch binding
+    - [x] JS - var, let, const keywords
+        - [x] Let
+        - [x] Let vs Var
+        - [x] Const
     - [ ] Proxy reflection
         - [ ] Proxy
         - [ ] Reflection
