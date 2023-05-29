@@ -1,5 +1,3 @@
-const { nextTick } = require("process");
-
 // REST PARAMETER
 {
     function fn(a,b,...args) {
@@ -100,8 +98,6 @@ const { nextTick } = require("process");
     // You can also add another type rather than numbers, like strings:
     const filterBy2String = filterBy2("string", "JavaScript", "Rest", "Parameter");
     console.log(`Result: ${filterBy2String}`); // Result: JavaScript Rest Parameter
-
-
 }
 
 class RestParameter {
