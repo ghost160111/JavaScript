@@ -16,6 +16,10 @@
     var colors = ["red", "green", "blue", "yellow", "purple"];
     var rgb = colors.slice(0,3);
 
+    var rgba = colors.slice(3, 5);
+
+    console.log(rgba);
+
     console.log(rgb); // ["red", "green", "blue"]
 }
 
