@@ -1,41 +1,42 @@
-class Greetings {
-    constructor(...messages) {
-        this.messages = messages;
+class Greeting {
+    constructor(...message) {
+        this.message = message;
     }
     Output() {
-        let messages = 'List of messages';
-        let length  = 'Length of array';
+        let greetings = 'messages';
+        let length = 'length';
         return {
-            [messages]: [...this.messages],
-            [length]: this.lengthOfArray(),
+            [greetings]: [...this.message],
+            [length]: this.message.length,
         };
     }
     addToEnd(...values) {
-        this.messages.push.call(this.messages, ...values);
+        this.message.push.call(this.message, ...values);
     }
     addToStart(...values) {
-        this.messages.unshift.call(this.messages, ...values);
+        this.message.unshift.call(this.message, ...values);
     }
-    removeLast() {
-        this.messages.pop.call(this.messages);
+    removeEnd(...values) {
+        this.message.pop.call(this.message, ...values);
     }
-    removeFirst() {
-        this.messages.shift.call(this.messages);
-    }
-    lengthOfArray() {
-        return this.messages.length;
+    removeFirst(...values) {
+        this.message.shift.call(this.message, ...values);
     }
 }
 
-let greetings = new Greetings('Hi', 'Hello', 'Howdy', 'Bonjour');
-console.log(greetings);
+let greeting = new Greeting('Hello', 'Hi');
 
-let greetingsArray = ['A yo', 'Yo homie', 'Hw doin dawg'];
+let result = greeting.Output();
+console.log(result); // { messages: [ 'Hello', 'Hi' ], length: 2 }
 
-let addElements = greetings.addToEnd(...greetingsArray);
+greeting.addToStart('Yo');
+greeting.addToEnd('Bonjour');
 
-for (const [key, value] of greetings.messages.entries()) {
-    console.log(`${key}: ${value}`);
-}
+result = greeting.Output();
+console.log(result); // { messages: [ 'Yo', 'Hello', 'Hi', 'Bonjour' ], length: 4 }
 
-console.log(greetings.Output());
+greeting.removeEnd();
+greeting.removeFirst();
+
+result = greeting.Output();
+console.log(result); // { messages: [ 'Hello', 'Hi' ], length: 2 }
