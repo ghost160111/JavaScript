@@ -72,12 +72,12 @@ console.log(guests.indexOf({
 Sometimes, you want to find the indices of all occurrences of an element in an array. The following find() function uses the indexOf() method to do so.
 
 ```js
-function find(needle, haystack) {
-    var results = [];
-    var idx = haystack.indexOf(needle);
-    while (idx != -1) {
-        results.push(idx);
-        idx = haystack.indexOf(needle, idx + 1);
+function find(element, array) {
+    let results = [];
+    let index = array.indexOf(element);
+    while (index != -1) {
+        results.push(index);
+        index = array.indexOf(element, index + 1);
     }
     return results;
 }
