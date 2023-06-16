@@ -79,12 +79,25 @@ The following example uses the Array findIndex() method to find the index of the
 const products = [
     { name: "Phone", price: 999 },
     { name: "Computer", price: 1999 },
+    { name: "PC", price: 2999 },
     { name: "Tablet", price: 995 },
 ];
 
 const index = products.findIndex((product, index, object) => {
-    let result = product.price > 1000;
-    return result;
+    return product.price > 1000 && index > 1;
 });
+
+const result = `Here's the result of the product with a price higher than 1000 and index location greater than 1, result = ${index}`;
+
+console.log(result); // 2
 ```
 
+Output:
+
+```
+Here's the result of the product with a price higher than 1000 and index location greater than 1, result = 2
+```
+
+# :memo: Summary
+
+- Use the JavaScript Array findIndex() method to find the first element that satisfies a given test.
