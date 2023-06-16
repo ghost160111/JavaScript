@@ -1,0 +1,2 @@
+# JavaScript - every() array method
+

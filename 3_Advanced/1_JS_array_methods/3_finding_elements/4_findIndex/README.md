@@ -1,0 +1,2 @@
+# JavaScript - findIndex() array method
+

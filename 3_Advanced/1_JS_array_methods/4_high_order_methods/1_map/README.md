@@ -1,0 +1,2 @@
+# JavaScript - map() array method
+

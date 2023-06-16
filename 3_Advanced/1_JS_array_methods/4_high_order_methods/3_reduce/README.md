@@ -1,0 +1,2 @@
+# JavaScript - reduce() array method
+

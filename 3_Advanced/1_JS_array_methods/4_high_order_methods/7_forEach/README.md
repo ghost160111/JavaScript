@@ -1,0 +1,2 @@
+# JavaScript - forEach() array method
+
