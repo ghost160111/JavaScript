@@ -18,7 +18,7 @@ find(callback(element[, index[, array]])[, thisArg])
 
 The find() accepts two arguments: a callback function and an optional value to use for the this inside the callback function.
 
-### 1) callback
+### 1. callback
 
 The callback is a function that executes each element of the array. It takes three arguments:
 
@@ -26,7 +26,7 @@ The callback is a function that executes each element of the array. It takes thr
 - index the index of the current element.
 - array the array that the find() was called upon.
 
-### 2) thisArg
+### 2. thisArg
 
 The thisArg is the object used as this inside the callback.
 
@@ -57,3 +57,33 @@ Output:
 2
 ```
 
+Suppose that we have a list of customer objects with name and credit properties as follows:
+
+```js
+let customers = [{
+    name: "ABC Inc",
+    credit: 100,
+}, {
+    name: "ACME Corp",
+    credit: 200,
+}, {
+    name: "IoT AG",
+    credit: 300,
+}];
+```
+
+The following code uses the find() method to find the first customer whose credit is greater than 100.
+
+```js
+console.log(customers.find(c => c.credit > 100));
+```
+
+Output:
+
+```
+{ name: "ACME Corp", credit: 200 }
+```
+
+# :memo: Summary
+
+- Use the find() method to find the first element of an array that satisfies a provided testing function.
