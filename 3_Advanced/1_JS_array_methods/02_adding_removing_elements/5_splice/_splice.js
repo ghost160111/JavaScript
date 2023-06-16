@@ -14,7 +14,7 @@ class Splice {
         };
     }
     splice(start, end, ...messages) {
-        this.#messages.splice.call(this.#messages, start, end, ...messages);
+        return this.#messages.splice.call(this.#messages, start, end, ...messages);
     }
 }
 
