@@ -136,7 +136,7 @@
         - [ ] String
 
 2. [ ] 2. ES6
-    - [ ] New ES6 syntax
+    - [x] New ES6 syntax
     - [ ] Destructuring
     - [ ] ES6 modules
     - [ ] ES6 classes
