@@ -42,6 +42,7 @@ arrMethods.removeStart();
 
 arrMethods.splice(3, 5, "Element 4", "Element 5", "Element 6");
 arrMethods.splice(0, 0, "Element -1", "Element 0");
+arrMethods.splice(0, 0, "Element -3", "Element -2");
 
 let slice = arrMethods.slice(0, 2);
 console.log(slice);
