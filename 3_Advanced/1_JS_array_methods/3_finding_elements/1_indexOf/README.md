@@ -116,7 +116,6 @@ Because the number 50 is not in the scores array, the following statement return
 
 ```js
 console.log(scores.lastIndexOf(50));// -1
-
 ```
 
 # :memo: Summary
