@@ -73,13 +73,15 @@ Sometimes, you want to find the indices of all occurrences of an element in an a
 
 ```js
 function find(element, array) {
-    let results = [];
+    let result = [];
     let index = array.indexOf(element);
-    while (index != -1) {
-        results.push(index);
-        index = array.indexOf(element, index + 1);
+    for (let i = 0; i < array.length; i++) {
+        if (index != -1) {
+            result.push(index);
+            index = array.indexOf(element, index + 1);
+        }
     }
-    return results;
+    return result;
 }
 ```
 
