@@ -121,7 +121,8 @@ class CityMap {
             if (typeof this.cities.get(key) === "object") {
                 result = `Map has the key ${key}.`;
                 return result;
-            } else {
+            }
+            else {
                 result = `Map has the key ${key} with the value of ${this.cities.get(key)}.`;
                 return result;
             }
