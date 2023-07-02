@@ -174,6 +174,7 @@ Later, you also want to load another JS library called `app.js` to the same docu
 
 ```html
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>JavaScript - IIFE</title>
@@ -182,6 +183,7 @@ Later, you also want to load another JS library called `app.js` to the same docu
     <script src="calculator.js"></script>
     <script src="app.js"></script>
 </body>
+</html>
 ```
 
 The `app.js` also has the `add()` function:
@@ -224,6 +226,7 @@ The IIFE returns an object that contains the add and multiply methods that refer
 
 ```html
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>JavaScript IIFE</title>
@@ -248,6 +251,7 @@ The following HTML document uses the jQuery library:
 
 ```html
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>JavaScript IIFE - jQuery</title>
