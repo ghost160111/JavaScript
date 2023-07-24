@@ -109,7 +109,7 @@ The following code uses the `Sequence` iterator in a `for..of` loop:
 let evenNumbers = new Sequence(2, 10, 2);
 
 for (const num of evenNumbers) {
-    console.log(num);
+  console.log(num);
 }
 ```
 
